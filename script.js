@@ -1,5 +1,12 @@
 "use strict";
 
+window.addEventListener("load", function () {
+  setTimeout(function () {
+    // This hides the address bar:
+    window.scrollTo(0, 1);
+  }, 0);
+});
+
 const parallax = function (e) {
   this.querySelectorAll(".layers").forEach((layer) => {
     const speed = layer.getAttribute("data-speed");
