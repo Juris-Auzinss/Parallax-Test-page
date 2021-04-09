@@ -260,7 +260,7 @@ nav {
   .nav-links {
     position: absolute;
     right: 0px;
-    /* height: 100vh; */
+    height: 100vh;
     top: 0vh;
     background: linear-gradient(
       90deg,
