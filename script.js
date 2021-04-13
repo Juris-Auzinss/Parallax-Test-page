@@ -3,7 +3,7 @@
 window.onload.setTimeout(
   scrollTo({
     left: 0,
-    top: 100,
+    top: 768,
     behavior: "smooth",
   }),
   3000
