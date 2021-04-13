@@ -1,5 +1,13 @@
 "use strict";
 
+window.onload = function (e) {
+  scrollTo({
+    left: 0,
+    top: 100,
+    behavior: "smooth",
+  });
+};
+
 window.addEventListener("load", function () {
   setTimeout(function () {
     // This hides the address bar:
