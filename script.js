@@ -9,12 +9,12 @@ window.onload.setTimeout(
   3000
 );
 
-window.addEventListener("load", function () {
-  setTimeout(function () {
-    // This hides the address bar:
-    window.scrollTo(0, 1);
-  }, 0);
-});
+// window.addEventListener("load", function () {
+//   setTimeout(function () {
+//     // This hides the address bar:
+//     window.scrollTo(0, 1);
+//   }, 0);
+// });
 
 const parallax = function (e) {
   this.querySelectorAll(".layers").forEach((layer) => {
