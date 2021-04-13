@@ -8,12 +8,12 @@
       id="viewport"
       content="width=device-width,minimum-scale=1.0,maximum-scale=10.0,initial-scale=1.0"
     />
-    <title>Parallax Test page</title>
+    <title>Parallax Tsest page</title>
     <link rel="stylesheet" href="style.css" />
     <script defer src="script.js"></script>
   </head>
 
-  <body onload="setTimeout(function() {window.scrollTo(0, 1)}, 100)">
+  <body onload="setTimeout(function() {window.scrollTo({left: 0, bottom: 0, behavior: "smooth"})}, 100)">
     <nav>
       <img src="/img/logo.png" alt="logo" class="logo" />
       <ul class="nav-links">
@@ -57,7 +57,7 @@
         <h3>Lido ar Mums..</h3>
         <p>
           Izbaudi lidojumu ar paparplānu tandēmā virs Rīgas, Jēkabpils vai virs
-          Jūrkalnes smilšainajām pludmalēm.
+          Jūrkalnes klinšu kāpām.
         </p>
         <a href="#">Pieteikties</a>
       </div>
