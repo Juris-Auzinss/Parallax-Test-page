@@ -1,12 +1,14 @@
 "use strict";
-
-window.onload.setTimeout(
-  scrollTo({
-    left: 0,
-    top: 768,
-    behavior: "smooth",
-  }),
-  3000
+window.addEventListener(
+  "load",
+  window.onload.setTimeout(
+    scrollTo({
+      left: 0,
+      top: 768,
+      behavior: "smooth",
+    }),
+    100
+  )
 );
 
 // window.addEventListener("load", function () {
