@@ -1,14 +1,10 @@
 "use strict";
+
+const showcase = document.querySelector('.showcase')
 window.addEventListener(
   "load",
-  window.onload.setTimeout(
-    scrollTo({
-      left: 0,
-      top: 768,
-      behavior: "smooth",
-    }),
-    100
-  )
+  setTimeout(showcase.scrollIntoView({block: "end"}),
+  100
 );
 
 // window.addEventListener("load", function () {
