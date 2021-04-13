@@ -1,11 +1,10 @@
 "use strict";
 
-const showcase = document.querySelector('.showcase')
-window.addEventListener(
-  "load",
-  setTimeout(showcase.scrollIntoView({block: "end"}),
-  100
-);
+const showcase = document.querySelector(".showcase");
+
+window.addEventListener("load", function () {
+  setTimeout(showcase.scrollIntoView({ block: "end" }), 100);
+});
 
 // window.addEventListener("load", function () {
 //   setTimeout(function () {
